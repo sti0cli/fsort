@@ -252,6 +252,7 @@ public class FSortApp {
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
             System.out.println("Parameters: input_file output_file [max_parallelism] [max_segment_size_mb]");
+            return;
         }
         Path input = Paths.get(args[0]);
         Path output = Paths.get(args[1]);

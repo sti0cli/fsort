@@ -1,1 +1,2 @@
-java -classpath ../out/production/main -Xmx512M FSortApp "$@"
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+java -classpath $DIR/out/production/main -Xms400M -Xmx1024M FSortApp "$@"
