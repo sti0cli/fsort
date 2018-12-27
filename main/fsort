@@ -1,0 +1,1 @@
+java -classpath ../out/production/main -Xmx512M FSortApp "$@"
